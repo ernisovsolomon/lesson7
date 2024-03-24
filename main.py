@@ -327,24 +327,24 @@
 и 97-122 (буквы латинского алфавита в нижнем регистре).
 Сгенерируйте и выведите на экран три пароля.
 '''
-import random
+# import random
 
-def generate_password():
-    length = random.randint(8, 15)
-    password = ''
-    for _ in range(length):
-        category = random.choice([1, 2, 3])
-        if category == 1:           
-            char = chr(random.randint(48, 57))
-        elif category == 2:
-            char = chr(random.randint(65, 90))
-        else:
-            char = chr(random.randint(97, 122))
-        password += char
-    return password
+# def generate_password():
+#     length = random.randint(8, 15)
+#     password = ''
+#     for _ in range(length):
+#         category = random.choice([1, 2, 3])
+#         if category == 1:           
+#             char = chr(random.randint(48, 57))
+#         elif category == 2:
+#             char = chr(random.randint(65, 90))
+#         else:
+#             char = chr(random.randint(97, 122))
+#         password += char
+#     return password
 
-print(generate_password())
+# print(generate_password())
 
-print(generate_password())
+# print(generate_password())
 
-print(generate_password())
+# print(generate_password())
